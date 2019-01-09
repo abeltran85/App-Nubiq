@@ -1,10 +1,12 @@
 <resources>
     <string name="app_name">NUBIQ</string>
-    <string name="user">User</string>
-    <string name="password">Password</string>
-    <string name="btnsubmit">Sign up</string>
-    <string name="textbtn">Sign up</string>
+    <string name="user">Nombre de usuario:</string>
+    <string name="password">Contraseña:</string>
+    <string name="idClient">ID Client:</string>
+    <string name="textbtn">Login 2,3,0</string>
     <string name="login">Login</string>
-
+    <string name="textlogin">Please type your account info here</string>
+    <string name="textinput">Type your ID here</string>
+    <string name="Presentaciones">Presentaciones desactivadas</string>
 
 </resources>
