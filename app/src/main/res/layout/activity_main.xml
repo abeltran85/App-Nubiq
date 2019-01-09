@@ -8,11 +8,14 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
     <LinearLayout
+            android:id="@+id/firstlayout"
             android:layout_width="370dp"
-            android:layout_height="360dp" tools:layout_editor_absoluteY="39dp" tools:layout_editor_absoluteX="249dp"
-            android:layout_alignParentStart="true" android:layout_marginStart="77dp"
-            android:layout_alignParentTop="true" android:layout_marginTop="49dp">
+            android:layout_height="360dp" tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="186dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" tools:ignore="MissingConstraints" android:layout_marginTop="43dp"
+            android:layout_marginStart="157dp">
 
-        <android.support.design.widget.TextInputLayau
+
     </LinearLayout>
 </RelativeLayout>
