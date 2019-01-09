@@ -7,16 +7,29 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
     <LinearLayout
+            android:background="@color/blanco"
             android:layout_width="370dp"
             android:layout_height="360dp" tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="186dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:orientation="vertical" tools:ignore="MissingConstraints" android:layout_marginTop="43dp"
             android:layout_marginStart="157dp">
-        <TextView android:id="@+id/user"
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/login"
+                  android:background="@color/nubiq"
+        />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/user" />
+
+        <TextView
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:text="@string/user" />
+
         <android.support.design.widget.TextInputEditText android:id="@+id/inputuser"
                 android:layout_width="match_parent"
                                                          android:layout_height="wrap_content"/>
