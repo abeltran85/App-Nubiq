@@ -135,9 +135,11 @@
                     android:textSize="16sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:id="@+id/checkBox"/>
+                    android:id="@+id/checkBox"
+                    android:textColor="@android:color/darker_gray"/>
 
             <RelativeLayout
                     android:layout_width="match_parent"
