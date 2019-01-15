@@ -5,5 +5,12 @@ class User {
      var nombre:String=""
      var password:String=""
 
+     constructor(){}
 
+     constructor(id_Client: Int, nombre:String, password: String){
+          this.id_client = id_Client
+          this.nombre = nombre
+          this.password = password
+
+     }
 }
