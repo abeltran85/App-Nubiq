@@ -14,17 +14,17 @@ import retrofit2.Response
 
 class MainActivity : AppCompatActivity() {
 
-    //internal lateinit var mService:IMyApi
+   // internal lateinit var mService:IMyApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         //Inicia Servicio
-       // mService = Common.api
+     /*   mService = Common.api
 
         btnSubmit.setOnClickListener{
             authenticateUser(inputuser.text.toString(),password.text.toString(),Integer.parseInt(idClient.text.toString()))
-        }
+        }*/
     }
 
     private fun authenticateUser(inputuser: String, password: String, idClient: Int) {
