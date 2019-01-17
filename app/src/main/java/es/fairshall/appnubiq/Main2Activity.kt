@@ -65,9 +65,6 @@ class Main2Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelect
             R.id.nav_gallery -> {
 
             }
-            R.id.nav_slideshow -> {
-
-            }
             R.id.nav_manage -> {
 
             }
